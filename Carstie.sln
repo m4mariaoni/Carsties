@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuctionService", "AuctionService", "{2935BF80-0AF3-4E90-BBFC-EC05A9C57EC6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13170CAC-3422-4CFD-A45D-CBDA06D11E9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "AuctionService\AuctionService.csproj", "{5A3CC4E0-971A-41AC-860E-05DC88CB4156}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchService", "src\SearchService\SearchService.csproj", "{DB15F55B-8483-42CF-ADEA-9CB7813B34F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{624EBA18-D7AF-4C11-A7DF-F2A284C1DEEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +15,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5A3CC4E0-971A-41AC-860E-05DC88CB4156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A3CC4E0-971A-41AC-860E-05DC88CB4156}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A3CC4E0-971A-41AC-860E-05DC88CB4156}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A3CC4E0-971A-41AC-860E-05DC88CB4156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB15F55B-8483-42CF-ADEA-9CB7813B34F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB15F55B-8483-42CF-ADEA-9CB7813B34F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB15F55B-8483-42CF-ADEA-9CB7813B34F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB15F55B-8483-42CF-ADEA-9CB7813B34F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624EBA18-D7AF-4C11-A7DF-F2A284C1DEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624EBA18-D7AF-4C11-A7DF-F2A284C1DEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624EBA18-D7AF-4C11-A7DF-F2A284C1DEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624EBA18-D7AF-4C11-A7DF-F2A284C1DEEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5A3CC4E0-971A-41AC-860E-05DC88CB4156} = {2935BF80-0AF3-4E90-BBFC-EC05A9C57EC6}
+		{DB15F55B-8483-42CF-ADEA-9CB7813B34F3} = {13170CAC-3422-4CFD-A45D-CBDA06D11E9E}
+		{624EBA18-D7AF-4C11-A7DF-F2A284C1DEEA} = {13170CAC-3422-4CFD-A45D-CBDA06D11E9E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9759DEA2-9C24-4C8A-A4AE-CDB44C9A46DB}
