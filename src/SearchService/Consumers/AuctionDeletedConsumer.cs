@@ -9,7 +9,7 @@ namespace SearchService.Consumers
     {
         public async Task Consume(ConsumeContext<AuctionDeleted> context)
         {
-            Console.Out.WriteLineAsync("---> Consuming Auction Deleted " + context.Message.Id);
+            Console.Out.WriteLine("---> Consuming Auction Deleted " + context.Message.Id);
 
             var result = await DB.DeleteAsync<Item>(context.Message.Id);   
 

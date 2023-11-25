@@ -3,9 +3,9 @@ using MassTransit;
 using Microsoft.EntityFrameworkCore;
 
 namespace AuctionService.Data;
-public class AutionDbContext : DbContext
+public class AuctionDbContext : DbContext
 {
-    public AutionDbContext(DbContextOptions options) : base(options)
+    public AuctionDbContext(DbContextOptions options) : base(options)
     {
     }
     public DbSet<Auction> Auctions { get; set; }
